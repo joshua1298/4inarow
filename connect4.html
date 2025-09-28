@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connect 4</title>
+  <link rel="stylesheet" type="text/css" href="connect4.css" media="screen" />
+</head>
+<body>
+
+  <span id="title">4 in row!
+    <ul id="list">
+      <li>Get four X's or O's in a row before your opponent</li>
+      <li>X goes first</li>
+      <li>Need at least two people</li>
+      <li id="button" style="display: none;"><button onclick="resetGame()">Reset</button></li>
+    </ul>
+  </span>
+
+
+
+    <div id="board">
+      <div class="column" id="c1">
+        <div class="hole" id="c1r1"></div>
+        <div class="hole" id="c1r2"></div>
+        <div class="hole" id="c1r3"></div>
+        <div class="hole" id="c1r4"></div>
+        <div class="hole" id="c1r5"></div>
+        <div class="hole" id="c1r6"></div>
+      </div>
+      <div class="column" id="c2">
+        <div class="hole" id="c2r1"></div>
+        <div class="hole" id="c2r2"></div>
+        <div class="hole" id="c2r3"></div>
+        <div class="hole" id="c2r4"></div>
+        <div class="hole" id="c2r5"></div>
+        <div class="hole" id="c2r6"></div>
+      </div>
+      <div class="column" id="c3">
+        <div class="hole" id="c3r1"></div>
+        <div class="hole" id="c3r2"></div>
+        <div class="hole" id="c3r3"></div>
+        <div class="hole" id="c3r4"></div>
+        <div class="hole" id="c3r5"></div>
+        <div class="hole" id="c3r6"></div>
+      </div>
+      <div class="column" id="c4">
+        <div class="hole" id="c4r1"></div>
+        <div class="hole" id="c4r2"></div>
+        <div class="hole" id="c4r3"></div>
+        <div class="hole" id="c4r4"></div>
+        <div class="hole" id="c4r5"></div>
+        <div class="hole" id="c4r6"></div>
+      </div>
+      <div class="column" id="c5">
+        <div class="hole" id="c5r1"></div>
+        <div class="hole" id="c5r2"></div>
+        <div class="hole" id="c5r3"></div>
+        <div class="hole" id="c5r4"></div>
+        <div class="hole" id="c5r5"></div>
+        <div class="hole" id="c5r6"></div>
+      </div>
+      <div class="column" id="c6">
+        <div class="hole" id="c6r1"></div>
+        <div class="hole" id="c6r2"></div>
+        <div class="hole" id="c6r3"></div>
+        <div class="hole" id="c6r4"></div>
+        <div class="hole" id="c6r5"></div>
+        <div class="hole" id="c6r6"></div>
+      </div>
+      <div class="column" id="c7">
+        <div class="hole" id="c7r1"></div>
+        <div class="hole" id="c7r2"></div>
+        <div class="hole" id="c7r3"></div>
+        <div class="hole" id="c7r4"></div>
+        <div class="hole" id="c7r5"></div>
+        <div class="hole" id="c7r6"></div>
+      </div>
+    </div>
+
+
+    <span id="infoBlurb">Player X's turn</span>
+
+   <script type="text/javascript" src="connect4.js"></script>
+
+</body>
+</html>
